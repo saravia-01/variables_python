@@ -17,10 +17,23 @@ __version__ = "1.3"
 
 
 def ej1():
-    # Ejercicios de práctica con números
-    print('Nuestra primera calculadora')
-    '''
-    Realice un calculadora, se ingresará por línea de comando dos
+# Ejercicios de práctica con números
+# SUMA
+
+    numero_1 = 10
+    numero_2 = 6
+
+    suma = numero_1 + numero_2   
+        print('El resultado de la suma es', suma)
+    
+    # RESTA
+
+    resta = numero_1 - numero_2
+        print('El resultado de restar', numero_1, 'y', numero_2, 'es', resta)
+
+    # MULPLICACION
+
+    '''Realice un calculadora, se ingresará por línea de comando dos
     números reales y se deberá calcular todas las operaciones entre ellos:
     - Suma
     - Resta
@@ -32,8 +45,8 @@ def ej1():
       la operación realizada en cada caso y con que números
       se ha realizado la operación
       ej: La suma entre 4.2 y 6.5 es 10.7
+      '''
 
-    '''
 
 
 def ej2():
